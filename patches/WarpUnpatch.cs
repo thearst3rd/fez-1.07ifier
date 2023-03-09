@@ -143,11 +143,11 @@ namespace Fez107ifier.patches
 									DotManager.DestinationVignetteSony = CMProvider.CurrentLevel.Load<Texture2D>("Other Textures/map_screens/" + text + "_SONY");
 								}
 								DotManager.ComeOut();
-								if (DotManager.Owner != this)
+								if (DotManager.Owner != self)
 								{
 									DotManager.Hey();
 								}
-								DotManager.Owner = this;
+								DotManager.Owner = self;
 							}
 							else
 							{
