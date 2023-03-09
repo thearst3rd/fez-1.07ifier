@@ -1,0 +1,10 @@
+<Metadata>
+   <Name>FEZ 1.07ifier</Name>
+   <Description>Reintroduces some 1.07 bugs</Description>
+   <Author>thearst3rd</Author>
+   <Version>0.1.0</Version>
+   <LibraryName>Fez107ifier.dll</LibraryName>
+   <Dependencies>
+      <DependencyInfo Name="HAT" MinimumVersion="1.0"/>
+   </Dependencies>
+</Metadata>
