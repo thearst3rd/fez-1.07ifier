@@ -21,6 +21,8 @@ namespace Fez107ifier.patches
 {
 	internal class WarpUnpatch
 	{
+		public bool Enabled = true;
+
 		private IDetour EnterDoorTestConditionsDetour;
 
 		private MethodInfo UnDotizeMethod;
@@ -69,6 +71,11 @@ namespace Fez107ifier.patches
 		// Man I had to do way too much just to add five entries to the switch statement at the top here
 		private void EnterDoorTestConditionsHooked(Action<EnterDoor> original, EnterDoor self)
 		{
+			if (!Enabled)
+			{
+				original(self);
+				return;
+			}
 			switch (PlayerManager.Action)
 			{
 				case ActionType.Idle:

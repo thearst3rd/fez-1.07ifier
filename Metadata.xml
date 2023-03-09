@@ -6,5 +6,6 @@
    <LibraryName>Fez107ifier.dll</LibraryName>
    <Dependencies>
       <DependencyInfo Name="HAT" MinimumVersion="1.0"/>
+      <DependencyInfo Name="FEZUG" MinimumVersion="0.1.5"/>
    </Dependencies>
 </Metadata>

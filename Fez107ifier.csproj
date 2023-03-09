@@ -58,6 +58,10 @@
       <HintPath>$(FezDir)\FezEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="FEZUG">
+      <HintPath>$(FezugDir)\FEZUG.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="FNA">
       <HintPath>$(FezDir)\FNA.dll</HintPath>
       <Private>False</Private>
