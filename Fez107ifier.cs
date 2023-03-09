@@ -8,6 +8,7 @@ namespace Fez107ifier
 	public class Fez107ifier : GameComponent
 	{
 		private WarpUnpatch warpUnpatch;
+		private LongJumpUnpatch longJumpUnpatch;
 
 		public Fez107ifier(Game game) : base(game)
 		{
@@ -17,12 +18,14 @@ namespace Fez107ifier
 		{
 			base.Initialize();
 			warpUnpatch = new WarpUnpatch();
+			longJumpUnpatch = new LongJumpUnpatch();
 		}
 
 		protected override void Dispose(bool disposing)
 		{
 			base.Dispose(disposing);
 			warpUnpatch.Dispose();
+			longJumpUnpatch.Dispose();
 		}
 	}
 }
