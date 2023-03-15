@@ -18,7 +18,7 @@ After installing the mod, both of these bugs will be un-patched. Enjoy!
 ## Installation
 
 * Follow the instructions to install [HAT](https://github.com/Krzyhau/FEZUG#installation-014), the FEZ mod loader
-* Download `FEZ107ifier.zip` from the [releases](https://git.thearst3rd.com/thearst3rd/fez-1.07ifier/releases/latest) page and copy it into your HAT `Mods` folder
+* Download `FEZ107ifier.zip` from the [releases](https://codeberg.org/thearst3rd/fez-1.07ifier/releases/latest) page and copy it into your HAT `Mods` folder
 * Run modded FEZ and enjoy!
 
 ## Build
